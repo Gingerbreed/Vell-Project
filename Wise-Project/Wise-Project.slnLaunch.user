@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "WiseJ Runner",
+    "Projects": [
+      {
+        "Path": "Wise-Backend\\Wise-Backend.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      },
+      {
+        "Path": "Wisej-Frontend\\Wisej-Frontend.csproj",
+        "Action": "Start",
+        "DebugTarget": "Wisej_Frontend"
+      }
+    ]
+  }
+]
