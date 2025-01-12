@@ -3,7 +3,7 @@
     "Name": "WiseJ Runner",
     "Projects": [
       {
-        "Path": "Wise-Backend\\Wise-Backend.csproj",
+        "Path": "Wise-Backend\\Vell-Backend.csproj",
         "Action": "Start",
         "DebugTarget": "https"
       },
