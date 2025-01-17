@@ -1,11 +1,10 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import { getBio, User } from "./github";
-import { Activity, getActivity } from "./Activity";
-import { getToken } from "./token";
-import React from "react";
+import { getBio, User } from "../services/github";
+import { Activity, getActivity } from "../services/Activity";
+import { getToken } from "../services/token";
 
-function Activity() {
+function ActivityDisplay() {
   const [count, setCount] = useState(0);
   const [user, setUser] = useState<User | null>(null);
   const [activity, setActivity] = useState<Activity | null>(null);
@@ -37,4 +36,4 @@ function Activity() {
     </>
   );
 }
-export default Activity;
+export default ActivityDisplay;
