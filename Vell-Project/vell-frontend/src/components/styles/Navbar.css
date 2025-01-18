@@ -1,4 +1,5 @@
 .NavbarItems{
+    background-color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -102,6 +103,7 @@ button:hover{
     }
 
      .nav-links {
+        display: block;
         width: 100%;
         text-align: center;
         font-size: 1.2rem;
