@@ -1,6 +1,7 @@
 import Destination from "../components/Destination";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar.";
+import RecentTrips from "../components/RecentTrips";
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
         url="/"
       />
       <Destination />
+      <RecentTrips />
     </>
   );
 }
