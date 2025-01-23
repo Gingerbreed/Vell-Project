@@ -1,6 +1,7 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import { Service, Home, About, Contact } from "./routes/exports";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route element={<Service />} path="/service" />
         <Route element={<Contact />} path="/contact" />
       </Routes>
+      <Footer />
     </>
   );
 }

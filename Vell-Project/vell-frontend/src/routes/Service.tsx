@@ -1,6 +1,7 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar.";
 import ServiceImg from "../../assets/5.jpg";
+import RecentTrips from "../components/RecentTrips";
 
 function Service() {
   return (
@@ -16,6 +17,7 @@ function Service() {
           btnName=""
           url="/"
         />
+        <RecentTrips />
       </>
     </>
   );
