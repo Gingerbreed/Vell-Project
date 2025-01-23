@@ -1,6 +1,7 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar.";
 import AboutImg from "../../assets/night.jpg";
+import AboutUs from "../components/About";
 
 function About() {
   return (
@@ -15,6 +16,7 @@ function About() {
         btnName=""
         url="/"
       />
+      <AboutUs />
     </>
   );
 }
